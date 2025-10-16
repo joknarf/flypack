@@ -22,5 +22,5 @@ echo '. ~/.fly.d/fly source' >>~/.bash_profile
 Use locally installed fly to use through sudo user to ssh
 ```
 sudo -u sshuser ssh -t remotehost ". <(cat <<<'$(flypack)') bash"
-sudo -iu sshuser ssh -t remotehost ". <(base64 -d <<<$(flypack|base64 -w 0))"
+sudo -iu sshuser ssh -t remotehost ". <(base64 -d <<<$(flypack|base64 -w0))"
 ```
