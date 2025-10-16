@@ -6,13 +6,20 @@ Activate (only in /tmp)
 ```
 . <(curl -s -L https://raw.githubusercontent.com/joknarf/flypack/main/fly.pak)
 ```
+
 Connect and Activate (only in /tmp)
 ```
 ssh -t <host> '. <(curl -s -L https://raw.githubusercontent.com/joknarf/flypack/main/fly.pak)'
 ```
+
 Install locally in $HOME/.fly.d and activate at login (adapt to shell init file)
 ```
 . <(curl -s -L https://raw.githubusercontent.com/joknarf/flypack/main/fly.pak) install
 echo '. ~/.fly.d/fly source' >>~/.profile
 echo '. ~/.fly.d/fly source' >>~/.bash_profile
+```
+
+Use locally installed fly to use through sudo user to ssh
+```
+sudo -u sshuser ssh -t remotehost ". <(cat <<<'$(flypack)') bash"
 ```
