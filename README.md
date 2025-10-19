@@ -18,6 +18,9 @@ Install locally in $HOME/.fly.d and activate at login (adapt to shell init file)
 echo '. ~/.fly.d/fly source' >>~/.bashrc
 ```
 
+##  Content
+
+custom nerd config:
 * .vimrc
 * .inputrc
 * .tmux.conf
