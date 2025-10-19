@@ -17,3 +17,18 @@ Install locally in $HOME/.fly.d and activate at login (adapt to shell init file)
 . <(curl -s -L https://raw.githubusercontent.com/joknarf/flypack/main/fly.pak) install
 echo '. ~/.fly.d/fly source' >>~/.bashrc
 ```
+
+* .vimrc
+* .inputrc
+* .tmux.conf
+* .screenrc
+
+plugins:
+* shell-ng
+* pgtree
+* domr
+* autocol
+
+commands:
+* tb start tmux daemon/attach
+* dfk autocol df
