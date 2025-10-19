@@ -15,6 +15,5 @@ ssh -t <host> '. <(curl -s -L https://raw.githubusercontent.com/joknarf/flypack/
 Install locally in $HOME/.fly.d and activate at login (adapt to shell init file)
 ```
 . <(curl -s -L https://raw.githubusercontent.com/joknarf/flypack/main/fly.pak) install
-echo '. ~/.fly.d/fly source' >>~/.profile
-echo '. ~/.fly.d/fly source' >>~/.bash_profile
+echo '. ~/.fly.d/fly source' >>~/.bashrc
 ```
