@@ -38,5 +38,5 @@ commands:
 
 note for me:
 ```
-printf "base64 -d >/tmp/fly.pak <<<$(flypack |base64 -w 0)" |ssh <host> sudo -s
+cat - <<< "base64 -d >/tmp/fly.pak <<<$(flypack |base64 -w 0)" |ssh <host> sudo -s
 ```
