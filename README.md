@@ -38,5 +38,5 @@ commands:
 
 note for me:
 ```
-(printf "cat - >/tmp/fly.pak <<'__EOF__'\n";flypack;echo __EOF__) |ssh <host> sudo bash
+(printf "cat - >/tmp/fly.pak <<'__EOF__'\n";flypack;echo __EOF__) |ssh <host> sudo -s
 ```
