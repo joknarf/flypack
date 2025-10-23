@@ -35,3 +35,8 @@ plugins:
 commands:
 * tb start tmux daemon/attach
 * dfk autocol df
+
+note for me:
+```
+(printf "cat - >/tmp/fly.pak <<'__EOF__'\n";flypack;echo __EOF__) |ssh <host> sudo bash
+```
