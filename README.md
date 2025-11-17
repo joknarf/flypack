@@ -31,10 +31,13 @@ plugins:
 * pgtree
 * domr
 * autocol
+* lsicon
+* dfbar
 
 commands:
 * tb start tmux daemon/attach
-* dfk autocol df
+* df alias to dfb (dfbar)
+* ls alias to ls+ (lsicon)
 
 note for me:
 ```
