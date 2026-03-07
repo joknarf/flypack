@@ -35,7 +35,6 @@ plugins:
 * dfbar
 
 commands:
-* tb start tmux daemon/attach
 * df alias to dfb (dfbar)
 * ls alias to ls+ (lsicon)
 
