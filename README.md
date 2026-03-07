@@ -35,9 +35,9 @@ plugins:
 * dfbar
 
 commands:
-* df alias to dfb (dfbar)
-* ls alias to ls+ (lsicon)
-* ftmux start tmux with `.fly.d/.tmux.conf`
+* `df` alias to `dfb` (dfbar)
+* `ls` alias to `ls+` (lsicon)
+* `ftmux` start tmux with `.fly.d/.tmux.conf`
 
 
 note for me:
