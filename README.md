@@ -18,6 +18,9 @@ Install locally in $HOME/.fly.d and activate at login (adapt to shell init file)
 echo '. ~/.fly.d/fly source' >>~/.bashrc
 ```
 
+<img width="3355" height="1960" alt="image" src="https://github.com/user-attachments/assets/fe1f0a37-eaba-41ed-9402-dbbb07813f50" />
+
+
 ##  Content
 
 custom nerd config:
